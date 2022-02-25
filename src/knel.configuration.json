@@ -1,0 +1,67 @@
+{
+    "comments": {
+      "lineComment": "//"
+    },
+    "brackets": [
+      [
+        "{",
+        "}"
+      ],
+      [
+        "[",
+        "]"
+      ],
+      [
+        "(",
+        ")"
+      ],
+      [
+        "Proof",
+        "QED"
+      ],
+      [
+        "Proof",
+        "Ongoing"
+      ],
+      [
+        "Proof",
+        "Admitted"
+      ]
+    ],
+    "colorizedBracketPairs": [
+      ["{", "}"],
+      ["[", "]"],
+      ["(", ")"]
+    ],
+    "autoClosingPairs": [
+      {
+        "open": "{",
+        "close": "}"
+      },
+      {
+        "open": "[",
+        "close": "]"
+      },
+      {
+        "open": "(",
+        "close": ")"
+      },
+      {
+        "open": "Proof",
+        "close": "Ongoing"
+      }
+    ],
+    "autoCloseBefore": ";:.,=}])>` \n\t",
+    "surroundingPairs": [
+      ["{", "}"],
+      ["[", "]"],
+      ["(", ")"]
+    ],
+    "indentationRules": {
+      "indentNextLinePattern": "(Theorem)(Lemma)",
+      "increaseIndentPattern": "(Proof)",
+      "decreaseIndentPattern": "(QED)(Ongoing)(Admitted)"
+    },
+    "_indentation": "Is instead set in EditorAssist.reload",
+    "_wordPattern": "Is instead set in EditorAssist.reload"
+  }

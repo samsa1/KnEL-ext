@@ -1,0 +1,15 @@
+{
+  "name": "KnEL",
+  "scopeName": "source.knel",
+  "patterns": [
+    {
+      "name": "keyword",
+      "match" : "\\b(Lemma|Theorem|QED|Ongoing|Proof|End|Tactic)\\b"
+    },
+    {
+      "begin": "//",
+      "end": "$\\n?",
+      "name": "comment"
+    }
+  ]
+}
